@@ -8,28 +8,28 @@
 class Commission < Formula
   desc "The execution layer for software delivery"
   homepage "https://commission.sh"
-  version "0.1.5"
+  version "0.1.6"
   license :cannot_represent
 
   on_macos do
     on_arm do
-      url "https://commission.sh/download/v0.1.5/commission-darwin-arm64"
-      sha256 "995ee0748a875ef733cae3d96e5b8fe642b3fd01b4bd717a93178c4862da5b3a"
+      url "https://commission.sh/download/v0.1.6/commission-darwin-arm64"
+      sha256 "7d287cd55c6a41723bd4d79c4759c51816f84e70142a8b40beccc85dc926a10d"
     end
     on_intel do
-      url "https://commission.sh/download/v0.1.5/commission-darwin-x64"
-      sha256 "e135a2c58daca325a6b3ba4f278a893962f2cae6640c2cdb7caa541d181d318a"
+      url "https://commission.sh/download/v0.1.6/commission-darwin-x64"
+      sha256 "a71ec70f078172e266d959d78e3e95bbd822d2bcaf0a7b277d7edfbb0e4611ec"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://commission.sh/download/v0.1.5/commission-linux-arm64"
-      sha256 "3e3291952474d75115c26675cf3af915846ca71ce7a4854c96adfa483545e822"
+      url "https://commission.sh/download/v0.1.6/commission-linux-arm64"
+      sha256 "1481146581f60a1a95b321d2fc0fb51119558410a04992a457460fa1160395f7"
     end
     on_intel do
-      url "https://commission.sh/download/v0.1.5/commission-linux-x64"
-      sha256 "7808f9473aef9de7ab7fbfc4fdbb80f33e8785281dfe1bef43a1a6bf2a73cd8b"
+      url "https://commission.sh/download/v0.1.6/commission-linux-x64"
+      sha256 "1bd51d888a13f0dd6ed95e5b8771b2a29fe1bbc29444057721f163f7a8f83629"
     end
   end
 
